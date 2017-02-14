@@ -1,10 +1,10 @@
-package main 
+package main
 
 import "fmt"
 
-func main(){
+func main() {
 
-	var a[5] string 
+	var a [5]string
 	fmt.Println("emp:", a)
 
 	a[3] = "Sa"
@@ -17,9 +17,9 @@ func main(){
 	b := [5]int{1, 2, 3, 4, 5}
 	fmt.Println("dcl:", b)
 
-	var twoD [2][3] int
+	var twoD [2][3]int
 	for i := 0; i < 2; i++ {
-		for j :=  0; j < 3; j++ {
+		for j := 0; j < 3; j++ {
 			twoD[i][j] = 1 + j
 		}
 	}
