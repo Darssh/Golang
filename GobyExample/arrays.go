@@ -23,5 +23,5 @@ func main() {
 			twoD[i][j] = 1 + j
 		}
 	}
-	fmt.Println("2nd: ", twoD)
+	fmt.Println("2nd array: ", twoD)
 }
